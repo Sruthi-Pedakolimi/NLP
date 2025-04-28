@@ -1,0 +1,21 @@
+# Ignore virtual environment
+team_project_env/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore temporary vim swap files
+*.swp
+
+# Ignore log files and results
+logs/
+results_swda/
+processed_data/
+
+# (Optional) Ignore large zip files if not needed
+data/
+ckp/
+*.pt
+*.pth
+
+.nfs*
