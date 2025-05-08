@@ -3,7 +3,7 @@ import torch.nn as nn
 import os
 import numpy as np
 from datasets import data_loader
-from models import BertRNN
+from models import BCRF
 from sklearn.metrics import accuracy_score
 import copy
 
@@ -38,7 +38,7 @@ class Engine:
             print(f"Let's use {torch.cuda.device_count()} GPUs!")
 
         print('Initializing model....')
-        model = BertRNN(nlayer=args.nlayer,
+        model = BCRF(nlayer=args.nlayer,
                         nclass=args.nclass,
                         dropout=args.dropout,
                         nfinetune=args.nfinetune,

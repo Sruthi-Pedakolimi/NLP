@@ -4,10 +4,10 @@ from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 from torch.utils.data import TensorDataset, DataLoader
 from torchcrf import CRF
 
-class BertRNN(nn.Module):
+class BCRF(nn.Module):
     def __init__(self, nlayer, nclass, dropout=0.5, nfinetune=0,
                  speaker_info='none', topic_info='none', emb_batch=0):
-        super(BertRNN, self).__init__()
+        super(BCRF, self).__init__()
 
         from transformers import AutoModel
         self.bert = AutoModel.from_pretrained('roberta-base')
