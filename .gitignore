@@ -13,7 +13,6 @@ results_swda/
 processed_data/
 
 # (Optional) Ignore large zip files if not needed
-data/
 ckp/
 *.pt
 *.pth
