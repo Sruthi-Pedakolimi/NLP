@@ -1,0 +1,404 @@
+Namespace(corpus='dyda', mode='train', nclass=4, batch_size=10, batch_size_val=10, emb_batch=0, epochs=100, gpu='0,1', lr=0.0001, nlayer=2, chunk_size=0, dropout=0.5, speaker_info='none', topic_info='none', nfinetune=4, seed=0)
+Tokenizing train....
+Done
+Tokenizing val....
+Done
+Tokenizing test....
+Done
+Done
+
+Let's use 2 GPUs!
+Initializing model....
+********************Epoch: 1********************
+Batch: 1/1112	loss: 1.433	loss_act:1.433
+Batch: 56/1112	loss: 0.840	loss_act:0.840
+Batch: 111/1112	loss: 0.484	loss_act:0.484
+Batch: 166/1112	loss: 0.467	loss_act:0.467
+Batch: 221/1112	loss: 0.569	loss_act:0.569
+Batch: 276/1112	loss: 0.448	loss_act:0.448
+Batch: 331/1112	loss: 0.472	loss_act:0.472
+Batch: 386/1112	loss: 0.375	loss_act:0.375
+Batch: 441/1112	loss: 0.441	loss_act:0.441
+Batch: 496/1112	loss: 0.431	loss_act:0.431
+Batch: 551/1112	loss: 0.520	loss_act:0.520
+Batch: 606/1112	loss: 0.453	loss_act:0.453
+Batch: 661/1112	loss: 0.338	loss_act:0.338
+Batch: 716/1112	loss: 0.808	loss_act:0.808
+Batch: 771/1112	loss: 0.573	loss_act:0.573
+Batch: 826/1112	loss: 0.319	loss_act:0.319
+Batch: 881/1112	loss: 0.598	loss_act:0.598
+Batch: 936/1112	loss: 0.398	loss_act:0.398
+Batch: 991/1112	loss: 0.495	loss_act:0.495
+Batch: 1046/1112	loss: 0.418	loss_act:0.418
+Batch: 1101/1112	loss: 0.540	loss_act:0.540
+Batch: 1112/1112	loss: 0.564	loss_act:0.564
+Epoch 1	Train Loss: 0.504	Val Acc: 0.823	Test Acc: 0.853
+Best Epoch: 1	Best Epoch Val Acc: 0.823	Best Epoch Test Acc: 0.853, Best Test Acc: 0.853
+
+********************Epoch: 2********************
+Batch: 1/1112	loss: 0.435	loss_act:0.435
+Batch: 56/1112	loss: 0.606	loss_act:0.606
+Batch: 111/1112	loss: 0.378	loss_act:0.378
+Batch: 166/1112	loss: 0.706	loss_act:0.706
+Batch: 221/1112	loss: 0.349	loss_act:0.349
+Batch: 276/1112	loss: 0.373	loss_act:0.373
+Batch: 331/1112	loss: 0.459	loss_act:0.459
+Batch: 386/1112	loss: 0.350	loss_act:0.350
+Batch: 441/1112	loss: 0.458	loss_act:0.458
+Batch: 496/1112	loss: 0.520	loss_act:0.520
+Batch: 551/1112	loss: 0.236	loss_act:0.236
+Batch: 606/1112	loss: 0.464	loss_act:0.464
+Batch: 661/1112	loss: 0.205	loss_act:0.205
+Batch: 716/1112	loss: 0.687	loss_act:0.687
+Batch: 771/1112	loss: 0.461	loss_act:0.461
+Batch: 826/1112	loss: 0.367	loss_act:0.367
+Batch: 881/1112	loss: 0.309	loss_act:0.309
+Batch: 936/1112	loss: 0.475	loss_act:0.475
+Batch: 991/1112	loss: 0.398	loss_act:0.398
+Batch: 1046/1112	loss: 0.649	loss_act:0.649
+Batch: 1101/1112	loss: 0.321	loss_act:0.321
+Batch: 1112/1112	loss: 0.297	loss_act:0.297
+Epoch 2	Train Loss: 0.405	Val Acc: 0.825	Test Acc: 0.860
+Best Epoch: 2	Best Epoch Val Acc: 0.825	Best Epoch Test Acc: 0.860, Best Test Acc: 0.860
+
+********************Epoch: 3********************
+Batch: 1/1112	loss: 0.283	loss_act:0.283
+Batch: 56/1112	loss: 0.350	loss_act:0.350
+Batch: 111/1112	loss: 0.246	loss_act:0.246
+Batch: 166/1112	loss: 0.404	loss_act:0.404
+Batch: 221/1112	loss: 0.283	loss_act:0.283
+Batch: 276/1112	loss: 0.354	loss_act:0.354
+Batch: 331/1112	loss: 0.463	loss_act:0.463
+Batch: 386/1112	loss: 0.351	loss_act:0.351
+Batch: 441/1112	loss: 0.547	loss_act:0.547
+Batch: 496/1112	loss: 0.383	loss_act:0.383
+Batch: 551/1112	loss: 0.378	loss_act:0.378
+Batch: 606/1112	loss: 0.308	loss_act:0.308
+Batch: 661/1112	loss: 0.193	loss_act:0.193
+Batch: 716/1112	loss: 0.343	loss_act:0.343
+Batch: 771/1112	loss: 0.320	loss_act:0.320
+Batch: 826/1112	loss: 0.341	loss_act:0.341
+Batch: 881/1112	loss: 0.215	loss_act:0.215
+Batch: 936/1112	loss: 0.237	loss_act:0.237
+Batch: 991/1112	loss: 0.794	loss_act:0.794
+Batch: 1046/1112	loss: 0.424	loss_act:0.424
+Batch: 1101/1112	loss: 0.225	loss_act:0.225
+Batch: 1112/1112	loss: 0.231	loss_act:0.231
+Epoch 3	Train Loss: 0.371	Val Acc: 0.831	Test Acc: 0.848
+Best Epoch: 3	Best Epoch Val Acc: 0.831	Best Epoch Test Acc: 0.848, Best Test Acc: 0.860
+
+********************Epoch: 4********************
+Batch: 1/1112	loss: 0.286	loss_act:0.286
+Batch: 56/1112	loss: 0.516	loss_act:0.516
+Batch: 111/1112	loss: 0.267	loss_act:0.267
+Batch: 166/1112	loss: 0.142	loss_act:0.142
+Batch: 221/1112	loss: 0.275	loss_act:0.275
+Batch: 276/1112	loss: 0.320	loss_act:0.320
+Batch: 331/1112	loss: 0.282	loss_act:0.282
+Batch: 386/1112	loss: 0.377	loss_act:0.377
+Batch: 441/1112	loss: 0.282	loss_act:0.282
+Batch: 496/1112	loss: 0.285	loss_act:0.285
+Batch: 551/1112	loss: 0.305	loss_act:0.305
+Batch: 606/1112	loss: 0.160	loss_act:0.160
+Batch: 661/1112	loss: 0.328	loss_act:0.328
+Batch: 716/1112	loss: 0.288	loss_act:0.288
+Batch: 771/1112	loss: 0.372	loss_act:0.372
+Batch: 826/1112	loss: 0.207	loss_act:0.207
+Batch: 881/1112	loss: 0.484	loss_act:0.484
+Batch: 936/1112	loss: 0.246	loss_act:0.246
+Batch: 991/1112	loss: 0.630	loss_act:0.630
+Batch: 1046/1112	loss: 0.307	loss_act:0.307
+Batch: 1101/1112	loss: 0.212	loss_act:0.212
+Batch: 1112/1112	loss: 0.296	loss_act:0.296
+Epoch 4	Train Loss: 0.346	Val Acc: 0.835	Test Acc: 0.861
+Best Epoch: 4	Best Epoch Val Acc: 0.835	Best Epoch Test Acc: 0.861, Best Test Acc: 0.861
+
+********************Epoch: 5********************
+Batch: 1/1112	loss: 0.350	loss_act:0.350
+Batch: 56/1112	loss: 0.406	loss_act:0.406
+Batch: 111/1112	loss: 0.552	loss_act:0.552
+Batch: 166/1112	loss: 0.166	loss_act:0.166
+Batch: 221/1112	loss: 0.309	loss_act:0.309
+Batch: 276/1112	loss: 0.340	loss_act:0.340
+Batch: 331/1112	loss: 0.454	loss_act:0.454
+Batch: 386/1112	loss: 0.244	loss_act:0.244
+Batch: 441/1112	loss: 0.302	loss_act:0.302
+Batch: 496/1112	loss: 0.401	loss_act:0.401
+Batch: 551/1112	loss: 0.242	loss_act:0.242
+Batch: 606/1112	loss: 0.353	loss_act:0.353
+Batch: 661/1112	loss: 0.434	loss_act:0.434
+Batch: 716/1112	loss: 0.289	loss_act:0.289
+Batch: 771/1112	loss: 0.494	loss_act:0.494
+Batch: 826/1112	loss: 0.409	loss_act:0.409
+Batch: 881/1112	loss: 0.213	loss_act:0.213
+Batch: 936/1112	loss: 0.365	loss_act:0.365
+Batch: 991/1112	loss: 0.178	loss_act:0.178
+Batch: 1046/1112	loss: 0.336	loss_act:0.336
+Batch: 1101/1112	loss: 0.206	loss_act:0.206
+Batch: 1112/1112	loss: 0.660	loss_act:0.660
+Epoch 5	Train Loss: 0.319	Val Acc: 0.836	Test Acc: 0.859
+Best Epoch: 5	Best Epoch Val Acc: 0.836	Best Epoch Test Acc: 0.859, Best Test Acc: 0.861
+
+********************Epoch: 6********************
+Batch: 1/1112	loss: 0.201	loss_act:0.201
+Batch: 56/1112	loss: 0.291	loss_act:0.291
+Batch: 111/1112	loss: 0.088	loss_act:0.088
+Batch: 166/1112	loss: 0.377	loss_act:0.377
+Batch: 221/1112	loss: 0.261	loss_act:0.261
+Batch: 276/1112	loss: 0.331	loss_act:0.331
+Batch: 331/1112	loss: 0.284	loss_act:0.284
+Batch: 386/1112	loss: 0.313	loss_act:0.313
+Batch: 441/1112	loss: 0.372	loss_act:0.372
+Batch: 496/1112	loss: 0.219	loss_act:0.219
+Batch: 551/1112	loss: 0.333	loss_act:0.333
+Batch: 606/1112	loss: 0.378	loss_act:0.378
+Batch: 661/1112	loss: 0.355	loss_act:0.355
+Batch: 716/1112	loss: 0.343	loss_act:0.343
+Batch: 771/1112	loss: 0.234	loss_act:0.234
+Batch: 826/1112	loss: 0.416	loss_act:0.416
+Batch: 881/1112	loss: 0.207	loss_act:0.207
+Batch: 936/1112	loss: 0.268	loss_act:0.268
+Batch: 991/1112	loss: 0.275	loss_act:0.275
+Batch: 1046/1112	loss: 0.243	loss_act:0.243
+Batch: 1101/1112	loss: 0.397	loss_act:0.397
+Batch: 1112/1112	loss: 0.304	loss_act:0.304
+Epoch 6	Train Loss: 0.293	Val Acc: 0.835	Test Acc: 0.862
+Best Epoch: 5	Best Epoch Val Acc: 0.836	Best Epoch Test Acc: 0.859, Best Test Acc: 0.862
+
+********************Epoch: 7********************
+Batch: 1/1112	loss: 0.280	loss_act:0.280
+Batch: 56/1112	loss: 0.193	loss_act:0.193
+Batch: 111/1112	loss: 0.275	loss_act:0.275
+Batch: 166/1112	loss: 0.397	loss_act:0.397
+Batch: 221/1112	loss: 0.287	loss_act:0.287
+Batch: 276/1112	loss: 0.232	loss_act:0.232
+Batch: 331/1112	loss: 0.330	loss_act:0.330
+Batch: 386/1112	loss: 0.232	loss_act:0.232
+Batch: 441/1112	loss: 0.369	loss_act:0.369
+Batch: 496/1112	loss: 0.332	loss_act:0.332
+Batch: 551/1112	loss: 0.286	loss_act:0.286
+Batch: 606/1112	loss: 0.243	loss_act:0.243
+Batch: 661/1112	loss: 0.224	loss_act:0.224
+Batch: 716/1112	loss: 0.248	loss_act:0.248
+Batch: 771/1112	loss: 0.144	loss_act:0.144
+Batch: 826/1112	loss: 0.184	loss_act:0.184
+Batch: 881/1112	loss: 0.372	loss_act:0.372
+Batch: 936/1112	loss: 0.510	loss_act:0.510
+Batch: 991/1112	loss: 0.293	loss_act:0.293
+Batch: 1046/1112	loss: 0.338	loss_act:0.338
+Batch: 1101/1112	loss: 0.219	loss_act:0.219
+Batch: 1112/1112	loss: 0.503	loss_act:0.503
+Epoch 7	Train Loss: 0.272	Val Acc: 0.834	Test Acc: 0.858
+Best Epoch: 5	Best Epoch Val Acc: 0.836	Best Epoch Test Acc: 0.859, Best Test Acc: 0.862
+
+********************Epoch: 8********************
+Batch: 1/1112	loss: 0.139	loss_act:0.139
+Batch: 56/1112	loss: 0.302	loss_act:0.302
+Batch: 111/1112	loss: 0.453	loss_act:0.453
+Batch: 166/1112	loss: 0.487	loss_act:0.487
+Batch: 221/1112	loss: 0.360	loss_act:0.360
+Batch: 276/1112	loss: 0.228	loss_act:0.228
+Batch: 331/1112	loss: 0.067	loss_act:0.067
+Batch: 386/1112	loss: 0.240	loss_act:0.240
+Batch: 441/1112	loss: 0.213	loss_act:0.213
+Batch: 496/1112	loss: 0.296	loss_act:0.296
+Batch: 551/1112	loss: 0.333	loss_act:0.333
+Batch: 606/1112	loss: 0.339	loss_act:0.339
+Batch: 661/1112	loss: 0.222	loss_act:0.222
+Batch: 716/1112	loss: 0.369	loss_act:0.369
+Batch: 771/1112	loss: 0.267	loss_act:0.267
+Batch: 826/1112	loss: 0.439	loss_act:0.439
+Batch: 881/1112	loss: 0.522	loss_act:0.522
+Batch: 936/1112	loss: 0.281	loss_act:0.281
+Batch: 991/1112	loss: 0.241	loss_act:0.241
+Batch: 1046/1112	loss: 0.189	loss_act:0.189
+Batch: 1101/1112	loss: 0.250	loss_act:0.250
+Batch: 1112/1112	loss: 0.411	loss_act:0.411
+Epoch 8	Train Loss: 0.253	Val Acc: 0.828	Test Acc: 0.865
+Best Epoch: 5	Best Epoch Val Acc: 0.836	Best Epoch Test Acc: 0.859, Best Test Acc: 0.865
+
+********************Epoch: 9********************
+Batch: 1/1112	loss: 0.150	loss_act:0.150
+Batch: 56/1112	loss: 0.240	loss_act:0.240
+Batch: 111/1112	loss: 0.166	loss_act:0.166
+Batch: 166/1112	loss: 0.358	loss_act:0.358
+Batch: 221/1112	loss: 0.137	loss_act:0.137
+Batch: 276/1112	loss: 0.132	loss_act:0.132
+Batch: 331/1112	loss: 0.322	loss_act:0.322
+Batch: 386/1112	loss: 0.145	loss_act:0.145
+Batch: 441/1112	loss: 0.218	loss_act:0.218
+Batch: 496/1112	loss: 0.175	loss_act:0.175
+Batch: 551/1112	loss: 0.170	loss_act:0.170
+Batch: 606/1112	loss: 0.150	loss_act:0.150
+Batch: 661/1112	loss: 0.226	loss_act:0.226
+Batch: 716/1112	loss: 0.308	loss_act:0.308
+Batch: 771/1112	loss: 0.111	loss_act:0.111
+Batch: 826/1112	loss: 0.152	loss_act:0.152
+Batch: 881/1112	loss: 0.161	loss_act:0.161
+Batch: 936/1112	loss: 0.376	loss_act:0.376
+Batch: 991/1112	loss: 0.150	loss_act:0.150
+Batch: 1046/1112	loss: 0.346	loss_act:0.346
+Batch: 1101/1112	loss: 0.201	loss_act:0.201
+Batch: 1112/1112	loss: 0.170	loss_act:0.170
+Epoch 9	Train Loss: 0.235	Val Acc: 0.827	Test Acc: 0.856
+Best Epoch: 5	Best Epoch Val Acc: 0.836	Best Epoch Test Acc: 0.859, Best Test Acc: 0.865
+
+********************Epoch: 10********************
+Batch: 1/1112	loss: 0.235	loss_act:0.235
+Batch: 56/1112	loss: 0.140	loss_act:0.140
+Batch: 111/1112	loss: 0.133	loss_act:0.133
+Batch: 166/1112	loss: 0.233	loss_act:0.233
+Batch: 221/1112	loss: 0.223	loss_act:0.223
+Batch: 276/1112	loss: 0.171	loss_act:0.171
+Batch: 331/1112	loss: 0.093	loss_act:0.093
+Batch: 386/1112	loss: 0.118	loss_act:0.118
+Batch: 441/1112	loss: 0.229	loss_act:0.229
+Batch: 496/1112	loss: 0.121	loss_act:0.121
+Batch: 551/1112	loss: 0.160	loss_act:0.160
+Batch: 606/1112	loss: 0.202	loss_act:0.202
+Batch: 661/1112	loss: 0.088	loss_act:0.088
+Batch: 716/1112	loss: 0.127	loss_act:0.127
+Batch: 771/1112	loss: 0.181	loss_act:0.181
+Batch: 826/1112	loss: 0.242	loss_act:0.242
+Batch: 881/1112	loss: 0.234	loss_act:0.234
+Batch: 936/1112	loss: 0.279	loss_act:0.279
+Batch: 991/1112	loss: 0.170	loss_act:0.170
+Batch: 1046/1112	loss: 0.321	loss_act:0.321
+Batch: 1101/1112	loss: 0.229	loss_act:0.229
+Batch: 1112/1112	loss: 0.101	loss_act:0.101
+Epoch 10	Train Loss: 0.220	Val Acc: 0.830	Test Acc: 0.859
+Best Epoch: 5	Best Epoch Val Acc: 0.836	Best Epoch Test Acc: 0.859, Best Test Acc: 0.865
+
+********************Epoch: 11********************
+Batch: 1/1112	loss: 0.055	loss_act:0.055
+Batch: 56/1112	loss: 0.105	loss_act:0.105
+Batch: 111/1112	loss: 0.145	loss_act:0.145
+Batch: 166/1112	loss: 0.181	loss_act:0.181
+Batch: 221/1112	loss: 0.329	loss_act:0.329
+Batch: 276/1112	loss: 0.145	loss_act:0.145
+Batch: 331/1112	loss: 0.110	loss_act:0.110
+Batch: 386/1112	loss: 0.377	loss_act:0.377
+Batch: 441/1112	loss: 0.341	loss_act:0.341
+Batch: 496/1112	loss: 0.134	loss_act:0.134
+Batch: 551/1112	loss: 0.282	loss_act:0.282
+Batch: 606/1112	loss: 0.161	loss_act:0.161
+Batch: 661/1112	loss: 0.140	loss_act:0.140
+Batch: 716/1112	loss: 0.433	loss_act:0.433
+Batch: 771/1112	loss: 0.185	loss_act:0.185
+Batch: 826/1112	loss: 0.357	loss_act:0.357
+Batch: 881/1112	loss: 0.161	loss_act:0.161
+Batch: 936/1112	loss: 0.373	loss_act:0.373
+Batch: 991/1112	loss: 0.242	loss_act:0.242
+Batch: 1046/1112	loss: 0.113	loss_act:0.113
+Batch: 1101/1112	loss: 0.212	loss_act:0.212
+Batch: 1112/1112	loss: 0.235	loss_act:0.235
+Epoch 11	Train Loss: 0.210	Val Acc: 0.828	Test Acc: 0.856
+Best Epoch: 5	Best Epoch Val Acc: 0.836	Best Epoch Test Acc: 0.859, Best Test Acc: 0.865
+
+********************Epoch: 12********************
+Batch: 1/1112	loss: 0.128	loss_act:0.128
+Batch: 56/1112	loss: 0.229	loss_act:0.229
+Batch: 111/1112	loss: 0.216	loss_act:0.216
+Batch: 166/1112	loss: 0.142	loss_act:0.142
+Batch: 221/1112	loss: 0.107	loss_act:0.107
+Batch: 276/1112	loss: 0.279	loss_act:0.279
+Batch: 331/1112	loss: 0.135	loss_act:0.135
+Batch: 386/1112	loss: 0.167	loss_act:0.167
+Batch: 441/1112	loss: 0.278	loss_act:0.278
+Batch: 496/1112	loss: 0.139	loss_act:0.139
+Batch: 551/1112	loss: 0.145	loss_act:0.145
+Batch: 606/1112	loss: 0.251	loss_act:0.251
+Batch: 661/1112	loss: 0.113	loss_act:0.113
+Batch: 716/1112	loss: 0.193	loss_act:0.193
+Batch: 771/1112	loss: 0.118	loss_act:0.118
+Batch: 826/1112	loss: 0.254	loss_act:0.254
+Batch: 881/1112	loss: 0.247	loss_act:0.247
+Batch: 936/1112	loss: 0.131	loss_act:0.131
+Batch: 991/1112	loss: 0.074	loss_act:0.074
+Batch: 1046/1112	loss: 0.173	loss_act:0.173
+Batch: 1101/1112	loss: 0.178	loss_act:0.178
+Batch: 1112/1112	loss: 0.265	loss_act:0.265
+Epoch 12	Train Loss: 0.201	Val Acc: 0.832	Test Acc: 0.859
+Best Epoch: 5	Best Epoch Val Acc: 0.836	Best Epoch Test Acc: 0.859, Best Test Acc: 0.865
+
+********************Epoch: 13********************
+Batch: 1/1112	loss: 0.123	loss_act:0.123
+Batch: 56/1112	loss: 0.045	loss_act:0.045
+Batch: 111/1112	loss: 0.181	loss_act:0.181
+Batch: 166/1112	loss: 0.108	loss_act:0.108
+Batch: 221/1112	loss: 0.221	loss_act:0.221
+Batch: 276/1112	loss: 0.113	loss_act:0.113
+Batch: 331/1112	loss: 0.103	loss_act:0.103
+Batch: 386/1112	loss: 0.164	loss_act:0.164
+Batch: 441/1112	loss: 0.078	loss_act:0.078
+Batch: 496/1112	loss: 0.151	loss_act:0.151
+Batch: 551/1112	loss: 0.116	loss_act:0.116
+Batch: 606/1112	loss: 0.067	loss_act:0.067
+Batch: 661/1112	loss: 0.313	loss_act:0.313
+Batch: 716/1112	loss: 0.303	loss_act:0.303
+Batch: 771/1112	loss: 0.297	loss_act:0.297
+Batch: 826/1112	loss: 0.309	loss_act:0.309
+Batch: 881/1112	loss: 0.198	loss_act:0.198
+Batch: 936/1112	loss: 0.252	loss_act:0.252
+Batch: 991/1112	loss: 0.211	loss_act:0.211
+Batch: 1046/1112	loss: 0.182	loss_act:0.182
+Batch: 1101/1112	loss: 0.240	loss_act:0.240
+Batch: 1112/1112	loss: 0.171	loss_act:0.171
+Epoch 13	Train Loss: 0.188	Val Acc: 0.828	Test Acc: 0.856
+Best Epoch: 5	Best Epoch Val Acc: 0.836	Best Epoch Test Acc: 0.859, Best Test Acc: 0.865
+
+********************Epoch: 14********************
+Batch: 1/1112	loss: 0.152	loss_act:0.152
+Batch: 56/1112	loss: 0.211	loss_act:0.211
+Batch: 111/1112	loss: 0.278	loss_act:0.278
+Batch: 166/1112	loss: 0.185	loss_act:0.185
+Batch: 221/1112	loss: 0.200	loss_act:0.200
+Batch: 276/1112	loss: 0.179	loss_act:0.179
+Batch: 331/1112	loss: 0.050	loss_act:0.050
+Batch: 386/1112	loss: 0.234	loss_act:0.234
+Batch: 441/1112	loss: 0.183	loss_act:0.183
+Batch: 496/1112	loss: 0.301	loss_act:0.301
+Batch: 551/1112	loss: 0.123	loss_act:0.123
+Batch: 606/1112	loss: 0.253	loss_act:0.253
+Batch: 661/1112	loss: 0.132	loss_act:0.132
+Batch: 716/1112	loss: 0.201	loss_act:0.201
+Batch: 771/1112	loss: 0.291	loss_act:0.291
+Batch: 826/1112	loss: 0.332	loss_act:0.332
+Batch: 881/1112	loss: 0.071	loss_act:0.071
+Batch: 936/1112	loss: 0.138	loss_act:0.138
+Batch: 991/1112	loss: 0.241	loss_act:0.241
+Batch: 1046/1112	loss: 0.063	loss_act:0.063
+Batch: 1101/1112	loss: 0.103	loss_act:0.103
+Batch: 1112/1112	loss: 0.091	loss_act:0.091
+Epoch 14	Train Loss: 0.185	Val Acc: 0.830	Test Acc: 0.854
+Best Epoch: 5	Best Epoch Val Acc: 0.836	Best Epoch Test Acc: 0.859, Best Test Acc: 0.865
+
+********************Epoch: 15********************
+Batch: 1/1112	loss: 0.104	loss_act:0.104
+Batch: 56/1112	loss: 0.191	loss_act:0.191
+Batch: 111/1112	loss: 0.042	loss_act:0.042
+Batch: 166/1112	loss: 0.067	loss_act:0.067
+Batch: 221/1112	loss: 0.120	loss_act:0.120
+Batch: 276/1112	loss: 0.111	loss_act:0.111
+Batch: 331/1112	loss: 0.191	loss_act:0.191
+Batch: 386/1112	loss: 0.190	loss_act:0.190
+Batch: 441/1112	loss: 0.186	loss_act:0.186
+Batch: 496/1112	loss: 0.057	loss_act:0.057
+Batch: 551/1112	loss: 0.163	loss_act:0.163
+Batch: 606/1112	loss: 0.180	loss_act:0.180
+Batch: 661/1112	loss: 0.422	loss_act:0.422
+Batch: 716/1112	loss: 0.128	loss_act:0.128
+Batch: 771/1112	loss: 0.332	loss_act:0.332
+Batch: 826/1112	loss: 0.101	loss_act:0.101
+Batch: 881/1112	loss: 0.150	loss_act:0.150
+Batch: 936/1112	loss: 0.118	loss_act:0.118
+Batch: 991/1112	loss: 0.209	loss_act:0.209
+Batch: 1046/1112	loss: 0.163	loss_act:0.163
+Batch: 1101/1112	loss: 0.177	loss_act:0.177
+Batch: 1112/1112	loss: 0.068	loss_act:0.068
+Epoch 15	Train Loss: 0.171	Val Acc: 0.829	Test Acc: 0.860
+Best Epoch: 5	Best Epoch Val Acc: 0.836	Best Epoch Test Acc: 0.859, Best Test Acc: 0.865
+
+Saving the best checkpoint....
+Test Acc: 0.859
+python -u engine.py --corpus=dyda --mode=train --gpu=0,1 --batch_size=10 --batch_size_val=10 --epochs=100 --lr=0.0001 --nlayer=2 --chunk_size=0 --dropout=0.5 --nfinetune=4  --speaker_info=none --topic_info=none --nclass=4 --emb_batch=0
